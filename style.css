@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.foto-perfil {
+    object-fit: cover;
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+    margin-bottom: 56px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    background-image: url(assets/Background_Intro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    place-items: center;
+    align-items: center;
+    max-width: 100%;
+    padding: 20px;
+    height: 100vh;
+    background-attachment: fixed; 
+}
+
+header {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 680px;
+    height: 327px;
+}
+
+h1 {
+    font: var(--h1);
+    color: #E2E4E9;
+    padding-bottom: 20px;
+}
+
+h3 {
+    font: var(--title-md);
+    color: var(--base-gray-600);
+    padding-bottom: 56px;
+}
+
+p {
+    font: var(--text-md);
+    color: var(--base-gray-500);
+    
+}
+
+p b {
+    color: var(--red);
+    font: var(--subtitle);
+}
+
+p:nth-of-type(2) {
+    font: var(--text-sm);
+    color: var(--base-gray-400);
+}
+
+.button-container {
+    padding-top: 80px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.badge {
+    font: var(--text-md);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 50px;
+    background-color: var(--base-gray-300);
+    color: var(--base-gray-500);
+    border: none;
+    gap: 12px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.down {
+    margin-top: 40px;
+    height: 32px;
+    width: 32px;
+}
+
+.cabecalho-trabalho {
+    display: grid;
+    text-align: center;
+}
+
+section {
+    padding: 72px;
+    background-color: #16181D;
+}
+
+img {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    justify-content: center;
+    place-items: center;
+}
+
+.card-galeria {
+    width: 330px;
+    height: 280px;
+    background-color: var(--base-gray-300);
+    border-radius: 12px;
+}
+
+.card-galeria img {
+    border-radius: 8px;
+    width: 306px;
+    height: 156px;
+    
+}
+
+
+h4 {
+    font: var(--title-sm);
+    color: var(--base-gray-600);
+    padding-bottom: 8px;
+}
+
+span {
+    font: var(--text-sm);
+    color: var(--base-gray-500);
+    padding: 8px, 16px, 21px, 16px;
+}
+
+.description {
+    padding: 20px;
+}
+
+.trabalhos {
+    padding-bottom: 144px;
+}
+
+.servicos {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 88px 120px 120px 120px;
+}
+
+.header {
+    display: grid;
+    text-align: center;
+}
+
+.container-servicos {
+    display: flex;
+    gap: 24px;
+}
+
+.ajuda {
+    width: 280px;
+    height: 155px;
+    border: 1px solid var(--base-gray-300);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px;
+    border-radius: 12px;
+}
+
+.ajuda img {
+    max-width: 48px;
+    margin-bottom: 10px;
+}
+
+
+.icon-linkedin  {
+    background-image: url(assets/LinkedinLogo.svg);
+}
+
+.icon-instagram {
+    background-image: url(assets/InstagramLogo.svg);
+}
+
+.icon-github {
+    background-image: url(assets/GithubLogo.svg);
+}
+
+.icon-email {
+    background-image: url(assets/EnvelopeSimple.svg);
+}
+
+.link-contato {
+    display: grid;
+    gap: 16px; 
+    padding-top: 48px;
+}
+
+
+.link-contato a {
+    display: flex;
+    align-items: center; 
+    padding: 12px;
+    background-color: var(--base-gray-300);
+    border-radius: 8px; 
+    text-decoration: none; 
+    color: inherit; 
+}
+
+
+footer {
+    display: grid;
+    place-items: center; 
+    text-align: center;
+    background-image: url(assets/Background_Contacts.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh; 
+}
+
+.container-contato {
+    width: 420px;
+    min-height: 91px; 
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    h3 {
+        padding: 8px;
+    }
+
+}
+
+.titulo-contato {
+    color: #BB72E9;
+    font: var(--subtitle);
+    padding-bottom: 8px;
+}
+
+.container-contato p {
+    font: var(--text-md);
+}
+
+a {
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+
+.link-contato {
+    display: grid;
+    gap: 16px; 
+  }
+  
+  .link-contato a {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding-left: 48px;
+    height: 64px;
+    background-size: 24px 24px;
+    background-position: 10px center;
+    background-color: var(--base-gray-300);
+    border-radius: 8px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Maven Pro', sans-serif;
+    background-repeat: no-repeat;
+    color: #fff; 
+    transition: all 0.3s ease; 
+}
+
+.link-contato a::after {
+    content: ''; 
+    display: inline-block;
+    width: 20px; 
+    height: 20px; 
+    background-image: url('assets/ArrowUpRight.svg'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 8px; 
+}
+
+.link-contato a img {
+    width: 24px;
+    height: 24px;
+    margin-right: 12px; 
+    background-repeat: no-repeat;
+}
+
+.link-contato a.icon-linkedin:hover {
+    color: #0077b5; 
+}
+
+.link-contato a.icon-instagram:hover {
+    color: #e4405f; 
+}
+
+.link-contato a.icon-github:hover {
+    color: #ddd0d0; 
+}
+
+.link-contato a.icon-email:hover {
+    color: #dd4b39; 
+}
+
+.link-contato a:hover svg {
+    fill: currentColor; 
+}
+
+.link-contato a:hover {
+    border: 2px solid #0077b5; 
+    color: #0077b5; 
+}
